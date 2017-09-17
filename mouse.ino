@@ -1,4 +1,5 @@
 #include <PS2Mouse.h>
+
 #define MOUSE_DATA 5  // assign pin 5 to mouse data
 #define MOUSE_CLOCK 6 // assign pin 6 to mouse data
 
@@ -6,7 +7,6 @@ PS2Mouse mouse(MOUSE_CLOCK, MOUSE_DATA, STREAM);
 
 int f = 9; // assign pin 9 to front led
 int b= 10; // assign pin 10 to back led
-
 int l= 8;  // assign pin 8 to right led
 int r= 7;  // assign pin 7 to left led
 
