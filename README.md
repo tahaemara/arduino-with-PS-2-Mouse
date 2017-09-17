@@ -1,6 +1,6 @@
 #Interface Arduino with PS/2 Mouse
 
-This project emulate the direction of moving mouse with four leds map to four directions.
+This project emulates the direction of moving mouse with four leds map to four directions.
 
 Video:
 
