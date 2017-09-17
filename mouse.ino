@@ -3,11 +3,11 @@
 #define MOUSE_CLOCK 6
 
 PS2Mouse mouse(MOUSE_CLOCK, MOUSE_DATA, STREAM);
-int f = 9;
-int b= 10;
+int f = 9; //front led
+int b= 10; //back led
 
-int l= 8;
-int r= 7;
+int l= 8;  //right led
+int r= 7;  //left led
 
 int motorsPinEnable = 2;
 char mx = 0;
